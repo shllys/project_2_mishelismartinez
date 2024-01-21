@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(70deg, #8b8aa7 30%, #a2b9e4 70%);
+}
+
+.container {
+    background-color: #4C4B6351;
+    border: 2px inset #4C4B63;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.function {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.answer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title {
+    font-size: 32px;
+    color: #d9d9d9;
+}
+
+.btn {
+    border: none;
+    border: 2px inset #4C4B63;
+    background-color: #5386E4;
+    color: #d9d9d9;
+    margin: 25px 0px;
+    margin-left: 30px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+
+.colorOne {
+    list-style: circle;
+    background-color: #bebebe;
+    border: 1px solid #8b8aa7;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.colorTwo {
+    list-style: circle;
+    background-color: #bebebe;
+    border-radius: 5px;
+    border: 1px solid #8b8aa7;
+    padding: 5px 20px;
+}
